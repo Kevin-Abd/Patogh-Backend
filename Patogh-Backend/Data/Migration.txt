@@ -1,0 +1,4 @@
+﻿
+EntityFrameworkCore\Add-Migration	 -OutputDir Data\Migrations\Main -Name V00
+EntityFrameworkCore\Update-Database
+EntityFrameworkCore\Script-Migration -From V00
